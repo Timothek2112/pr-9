@@ -11,15 +11,12 @@
         android:layout_height="50dp"
         android:orientation="horizontal">
 
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="match_parent"/>
-
         <TextView
-            android:layout_width="360dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="New aromat"
-            android:gravity="right"/>
+            android:gravity="center"
+            android:layout_marginStart="335dp"/>
 
     </LinearLayout>
 
@@ -109,13 +106,15 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:backgroundTint="#9F4444"
-        android:text="Показать результаты"/>
+        android:backgroundTint="#EACCA8"
+        android:text="Показать результаты"
+        android:textColor="@color/gray_black"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="33dp"
         android:gravity="right"
-        android:text="8-954-852-00-00"/>
+        android:text="8-954-852-00-00"
+        android:textColor="@color/gray_black"/>
 
 </LinearLayout>
